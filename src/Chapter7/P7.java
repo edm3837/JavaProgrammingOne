@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Chapter7;
 
 /**
  * Program takes an array and then finds the average in it
  *
- * @author em0947744
+ * @author Emory Meursing
  */
 import java.util.Arrays;
 import java.util.Scanner;
@@ -56,7 +51,7 @@ public class P7 {
      *
      * @param array
      * @param arraySize
-     * @return
+     * @return the average of the array
      */
     public static double arrayAverage(double[] array, double arraySize) {
         double averages = 0;
